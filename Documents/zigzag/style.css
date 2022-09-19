@@ -42,3 +42,18 @@ body {
 	width: 1080px;
 	margin: 0 auto;
 }
+
+header {
+	display: flex;
+}
+
+h1 {
+	background-color: red;
+	flex-basis: 26%;
+	flex-shrink: 0;
+}
+
+.header-txt {
+	background-color: yellow;
+	flex-grow: 1;
+}
