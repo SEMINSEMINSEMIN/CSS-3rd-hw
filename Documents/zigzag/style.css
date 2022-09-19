@@ -99,6 +99,7 @@ main {
 
 .wrapper {
 	display: flex;
+	margin-top: 24px;
 }
 
 figure {
@@ -150,4 +151,8 @@ li::before {
 	height: 10px;
 	background-color: var(--lightpurple-color);
 	border-radius: 50%;
+}
+
+.wrapper:nth-child(2) {
+	flex-direction : row-reverse;
 }
