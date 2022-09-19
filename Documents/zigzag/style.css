@@ -23,3 +23,12 @@ body, h1, h2, p, ul, li {
 li {
 	list-style-type: none;
 }
+
+/* 기본 글꼴 사이즈 */
+html {
+	font-size: 10px;
+}
+
+body {
+	font-size: 1.4rem;
+}
