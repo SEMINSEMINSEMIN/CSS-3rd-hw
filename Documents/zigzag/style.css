@@ -32,3 +32,13 @@ html {
 body {
 	font-size: 1.4rem;
 }
+
+/* 메인 코드 */
+body {
+	padding: 100px 0;
+}
+
+.container {
+	width: 1080px;
+	margin: 0 auto;
+}
