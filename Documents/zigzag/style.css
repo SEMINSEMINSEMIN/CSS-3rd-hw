@@ -1,8 +1,11 @@
+/* 색상 변수 */
 :root {
     font-family: 'Montserrat', sans-serif;
+	--main-bg-color: #51318b;
+	--highlight-color: #d9501a;
+	--lightpurple-color: #a887e1;
 	/*
 	font-weight: 500;
 	font-weight: 700;
 	*/
 }
-
