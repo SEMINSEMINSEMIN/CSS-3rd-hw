@@ -111,6 +111,7 @@ figure {
 img {
 	vertical-align: top;
 	width: 100%;
+	opacity: 0.5;
 }
 
 figcaption {
