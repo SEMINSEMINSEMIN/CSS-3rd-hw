@@ -75,5 +75,20 @@ h1 {
 
 .header-txt {
 	flex-grow: 1;
+	display: flex;
 	color: var(--lightpurple-color);
+	align-items: center;
+	gap: 30px;
+}
+
+.header-txt::before {
+	content:"";
+	display: block;
+	width: 100px;
+	border: 1px solid var(--lightpurple-color);
+}
+
+.txt-in-header {
+	flex-basis: 58%;
+	line-height: 1.5;
 }
