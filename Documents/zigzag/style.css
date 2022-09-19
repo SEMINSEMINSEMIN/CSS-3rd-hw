@@ -1,8 +1,8 @@
 /* 색상 변수 */
 :root {
     font-family: 'Montserrat', sans-serif;
-	--main-bg-color: #51318b;
-	--highlight-color: #d9501a;
+	--main-bg-color: rgb(100, 48, 145);
+	--highlight-color: rgb(251, 64, 6);
 	--lightpurple-color: #a887e1;
 	/*
 	font-weight: 500;
@@ -55,6 +55,22 @@ h1 {
 	flex-basis: 26%;
 	flex-shrink: 0;
 	color: white;
+}
+
+.highlight {
+	position: relative;
+	display: inline-block;
+}
+
+.highlight:after {
+	position: absolute;
+	bottom: 0;
+	content:"";
+	display: block;
+	background-color: var(--highlight-color);
+	height: 24.25px;
+	width: 100%;
+	z-index: -1;
 }
 
 .header-txt {
